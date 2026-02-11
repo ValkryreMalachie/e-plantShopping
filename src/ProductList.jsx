@@ -298,6 +298,9 @@ function ProductList({ onHomeClick }) {
             Add to Cart
           </button>
         </div>
+
+        const[addedToCart, setAddedToCart] = useState({});
+        
       ))}
     </div>
   </div>
