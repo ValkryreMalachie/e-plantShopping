@@ -13,8 +13,8 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const calculateTotalQuantity = () => {
-    return CartItems ? CartItems.reduce((total, item) => total + item.quantity, 0) : 0;
-  }
+    return Cartitem ? Cartitem.reduce((total, item) => total + item.quantity, 0) : 0;
+  };
   const handleContinueShopping = (e) => {
     e.preventDefault();
     onContinueShopping(e);
