@@ -8,6 +8,8 @@ function App() {
   
   const [showProductList, setShowProductList] = useState(false);
 
+  const [addedToCart, setAddedToCart] = useState({});
+  
   const handleGetStartedClick = () => {
     setShowProductList(true);
   };
